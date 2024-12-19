@@ -1,0 +1,44 @@
+/* style.css */
+body {
+    font-family: sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;  /* Light background */
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+  }
+  
+  h1 {
+    color: #333; /* Darker color for the title */
+  }
+  
+  /* style.css */
+  h3 {  /* Style for the episode title */
+    font-style: italic;
+    color: #555; /* Slightly lighter color */
+    margin-top: 5px; /* Adjust spacing as needed */
+  }
+  
+  /* style.css */
+  button {
+    background-color: #219741; /* Green, like the Psych logo */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  #episodeInfo {
+    margin-top: 20px;
+    font-size: 18px;
+  }
